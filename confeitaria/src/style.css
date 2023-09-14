@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}  
+
+
+.pri{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*HEADER*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: mediumvioletred;
+    align-items: center;
+height: 50px;
+}
+
+.nomePrincipal{
+    display: flex;
+}
+
+.nomePrincipal img{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    height: 20px;
+    width: 20px;
+}
+
+.bt{
+    display: flex;
+}
+
+button{
+    width: 60px;
+    padding: 2px;
+}
+
+
+/*MAIN-CONTEUDOPRINCIPAL*/
+
+main{
+    display: flex;
+    min-height: calc(100vh - 90px);
+    
+
+}
+
+section{
+    display: flex;
+
+}
+
+.conteudo{
+    display: flex;
+
+    background-color: #f2d0e0;
+    width: 35%;
+}
+
+.linksHome{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.linksHome img{
+    display: flex;
+    width: 20px;
+}
+
+.img1{
+    display: flex;
+    margin: 10px;
+}
+
+.img1 .seta{
+    display: flex;
+    padding-left: 30px;
+}
+
+
+
+
+.conteudoBolos{
+    padding: 70px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.bolo{
+    display: flex;
+    margin: 5px;
+    flex-wrap: wrap;
+    box-shadow: 2px 2px 2px 2px rgb(123, 123, 123);
+
+}
+
+.sobre-bolos{
+    padding: 50px;
+    display: flex;
+
+}
+
+.sobre-bolos img{
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 200px;
+}
+
+
+.bolo p{
+    display: flex;
+    text-align: center;
+}
+
+.bolo h2{
+    display: flex;
+    padding-left: 25px;
+
+    font-size: 20px;
+
+}
+
+footer{
+    display: flex;
+    background-color: mediumvioletred;
+    justify-content: center;
+height: 40px;    
+align-items: center;
+
+}
